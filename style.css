@@ -1,0 +1,75 @@
+body {
+background-image: url(images/background.png); 
+}
+header {
+    display: flex;
+    height: 200px;
+}
+.title-block {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80%;
+height: 100%;
+font-size: 30px;
+color: aliceblue;
+}
+.userpic {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background-image: url(images/images.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav ul {
+    display: flex;
+    background-color: black; 
+}
+ nav li a {
+display: flex;
+padding: 20px;
+text-decoration: none;
+color: aliceblue;
+font-weight: bold;
+border-right: 1px solid aliceblue;
+transition: background 0.3s ease;
+} 
+nav li a:hover {
+    background: rgb(36, 34, 34);
+}
+p {
+    display: flex;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 10px;
+}
+h2 {
+    color: aliceblue;
+    position: center;
+    margin-left: 10px;
+}
+img {
+    margin-left: 200px;
+    width: 50%;
+    height: 30%;
+}
+h3 {
+    color: aliceblue;
+    position: center;
+    margin-left: 10px;
+    font-size: 30px;
+}
+footer {
+    width: 100%;
+    height: auto;
+    background: rgb(94, 82, 82);
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+footer a {
+    color: antiquewhite;
+    font-size: 20px;
+}
