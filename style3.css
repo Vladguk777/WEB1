@@ -1,0 +1,67 @@
+header {
+    display: inline;
+    text-align: center;
+}
+.One {
+    background-color: rgb(219, 130, 130);
+    padding: 5px;
+}
+.One li {
+    margin: 5px;
+    background-color: pink;
+    list-style-position: inside;
+    color: white;
+}
+.One li .f {
+background-color: rgb(190, 74, 74);
+}
+
+ul {
+    list-style-image: 
+    url(images/checked_16.png);
+}
+ul li {
+    border: 1px solid black; 
+    padding: 5px;
+}
+.Two .Color {
+    background-color: rgb(76, 131, 110);
+    list-style-position: inside;
+    color: black;
+}
+.Two .Color2 {
+    background-color: rgb(139, 168, 157);
+    list-style-position: inside;
+    color: black;
+}
+.Two .Color3 {
+    background-color: rgb(94, 184, 149);
+    list-style-position: inside;
+    color: black;
+}
+dd ol {
+    background-color: white;
+    
+}
+dd ol li {
+    border: none;
+    padding: 5px;
+}
+.colortext {
+    color: blue;
+}
+.colortext2 {
+    color: gray;
+}
+.q  {
+    list-style-image: 
+    url(images/unchecked_16.png); 
+}
+.wer {
+    text-decoration-line: line-through;
+}
+.img-right {
+    transform: rotate(180deg);
+    
+}
+
