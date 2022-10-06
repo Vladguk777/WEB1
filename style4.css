@@ -1,0 +1,43 @@
+header {
+    display: inline;
+    text-align: center;
+}
+table {
+    width: 900px;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 3px;
+    border: 1px solid black;
+}
+.color1 {
+   background-color: rgb(230, 230, 64);
+}
+.color2 {
+    background-color: rgb(177, 128, 223);
+ }
+ .color3 {
+    background-color: rgba(247, 120, 179, 0.808);
+ }
+ .color4 {
+    background-color: rgb(67, 223, 132);
+ }
+ .color5 {
+    background-color: rgb(223, 43, 163);
+ }
+ .center1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+ }
+ .center {
+    text-align: center;
+ }
+  .kursiv {
+    font-style: italic;
+ }
+ .v {
+    text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 300;
+ }
