@@ -1,0 +1,51 @@
+.round { 
+    position: relative;
+    width: 100px;
+    height: 100px;
+     margin:auto;
+    border: 3px solid rgb(1, 170, 162);
+    border-radius: 50%;
+    }
+    .round2 {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        top: 42px;
+        left: 44px;
+        background: rgb(1, 170, 162);
+        }
+    
+    .minutes { 
+    position: absolute;
+    width: 3px; 
+    height: 35px; 
+    left: 51px; 
+    top: 16px;
+    background: rgb(1, 170, 162);
+    animation: min 1600s linear 0s infinite forwards;
+    transform-origin: 0 34px; 
+    }   
+    .sekundes {
+    position: absolute;
+    width: 2px;
+    height: 45px;
+    left: 51px;
+    top: 4px;
+    background: rgb(1, 170, 162);
+    animation: sek 60s linear 0s infinite forwards;
+    transform-origin: 0 45px;
+    }
+    
+    @keyframes min {
+    100%{
+    transform: rotate(360deg); 
+    }
+    }
+    
+    @keyframes sek {
+    100%{
+    transform: rotate(360deg);
+    }
+    }
+    

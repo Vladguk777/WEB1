@@ -1,0 +1,78 @@
+p {
+    font-size: 25px;
+    margin-left: 240px;
+    padding: 15px 20px;
+}
+h1 {
+    margin-left: 250px;
+    padding: 15px 20px;
+}
+h2 {
+    font-size: 30px;
+    margin-left: 250px;
+    padding: 15px 20px;
+}
+h3 {
+    font-size: 30px;
+    margin-left: 250px;
+    padding: 15px 20px;
+}
+h4 {
+    color: white;
+    margin-left: 32px;
+}
+.sidenav {
+    width: 120px;
+    height: 100%;
+    background-color: rgb(126, 141, 141);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sidenav a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 50px;
+    transition: 0.5s;
+}
+img {
+    margin-right: 20px;
+    padding: 15px;
+}
+.sidenav:hover {
+    width: 270px;
+    transition: 0.5s;
+}
+.a:hover {
+    background-color: rgb(89, 92, 92);
+    transition: 0.3s;
+}
+.a {
+    transition: 0.5s;
+    margin-left: -30px;
+}
+.Edit {
+  margin-top: -120PX;
+  margin-bottom: 0px;
+  margin-left: 130PX;
+  color: white;
+}
+.Favorites {
+    margin-top: -120PX;
+    margin-bottom: 0;
+    margin-left: 130PX;
+    color: white;
+}
+.History {
+    margin-top: -120PX;
+    margin-bottom: 0;
+    margin-left: 130PX;
+    color: white;
+}
+.Settings {
+    margin-top: -120PX;
+    margin-bottom: 0;
+    margin-left: 130PX;
+    color: white;
+}
