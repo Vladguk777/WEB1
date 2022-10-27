@@ -1,0 +1,67 @@
+.Bot {
+    border: 7px solid black;
+    background-color: black;
+    width: 1335px;
+}
+.rt {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(228, 13, 13);
+    display: grid;
+    grid-template-columns: 105px 1140px 50px;
+    height: 30px;
+    align-content: center;
+    margin-bottom: 7px;
+} 
+.rt1 {
+margin-left: 30px;
+}
+.tt {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: grid; 
+    grid-template-columns: 200px 935px 200px;
+    height: 400px;
+    align-content: center;
+}
+.tt1 {
+    margin-right: 7px;
+    display: grid; 
+    height: 400px;
+    background-color: rgb(209, 209, 14);
+    align-content: center;
+}
+.tt2 {
+    margin-left: 30px;  
+}
+.tt3 {
+    margin-right: 7px;
+    display: grid; 
+    height: 400px;
+    background-color: rgb(40, 40, 199);
+    align-content: center;
+}
+.tt4 {
+    margin-left: 30px;  
+}
+.tt5 {
+    display: grid; 
+    height: 400px;
+    background-color: rgb(14, 124, 60);
+    align-content: center;
+}
+.tt6 {
+    margin-left: 30px;  
+}
+.yt {
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(95, 14, 172);
+    color: white;
+    display: grid; 
+    height: 40px;
+    align-content: center;
+}
+.yt1 {
+    margin-left: 30px;  
+}
