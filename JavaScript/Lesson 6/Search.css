@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(169, 147, 147);
+}
+.styled-div div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.styled-div div input {
+    margin-right: 65%;
+}
+button {
+    min-height: 30px;
+}
+#styled-button {
+    width: 25%;
+    margin-left: 5px;
+}
+#clear-button {
+    width: 10%;
+    margin-right: 65%;
+    margin-left: 5px;
+}
+
+span {
+    margin-left: 5px;
+}
+input {
+    width: 13%;
+}
+
+#search {
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+table {
+    margin-top: 40px;
+}
+
+table th, .table td {
+    padding: 24px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.btn.btn-danger {
+    height: 35px;
+    width: 60px;
+}

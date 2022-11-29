@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    width: 900px;
+    height: 500px;
+    margin: 100px;
+    border-radius: 10px;
+    background-color: rgb(101, 228, 228);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.page {
+    border: 1px solid black;
+    background-color: rgb(250, 84, 24);
+    width: 700px;
+    margin-left: -40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+p {
+    margin-left: 70px;
+    color: white;
+    font-weight: bolder;
+} 
+input {
+    margin-top: 10px;
+    background-color: rgb(133, 239, 239);
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+span {
+    color: rgba(101, 93, 93, 0.989);
+    margin-left: 40px;
+
+}
+.qwer {
+    display: flex;
+    flex-direction: column;
+}
+.i1 {
+    height: 40px;
+    width: 120px;
+}
+.i2 {
+    height: 40px;
+    width: 120px;
+    margin-top: 28px;
+}
+.i3 {
+    height: 40px;
+    width: 120px;
+}
+.wer {
+    display: flex;
+    flex-direction: row;
+}
+.i4 {
+    height: 40px;
+    width: 455px;
+}
+.i5 {
+    height: 40px;
+    width: 455px;
+}
+
