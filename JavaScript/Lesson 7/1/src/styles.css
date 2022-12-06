@@ -1,0 +1,10 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Quote {
+  border: 1px solid black;
+  margin-top: 10px;
+  background-color: blue;
+  border-radius: 10px;
+}

@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.City {
+  border-radius: 10px;
+  background: linear-gradient(blue, yellow);
+  box-shadow: 0 0 10px black;
+  margin-top: 20px;
+}
+img {
+  margin-bottom: 10px;
+}
+.City1 {
+  padding: 10px;
+}

@@ -1,0 +1,86 @@
+body {
+    display: flex;
+  justify-content: center;
+  background: url(https://img1.akspic.ru/crops/6/3/3/9/6/169336/169336-more-voda-zhidkost-plyazh-zhidkiy-1920x1080.jpg);
+
+  
+}
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 0 0 13px 1px rgb(0, 0, 0);
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+div {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    flex-direction: column;
+}
+button {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-weight: bolder;
+    height: 35px;
+    transition: .4s;
+    cursor: pointer;
+    margin-top: -20px;
+}
+button:hover {
+    background-color: rgba(240, 240, 240, 0.275);
+}
+.Line {
+    border-bottom: 2px solid white;
+    width: 865px;
+    margin-left: 10px;
+}
+label {
+    padding: 10px;
+}
+.inp1 {
+   margin-left: 80px;
+   height: 30px;
+   width: 330px;
+}
+.inp2 {
+    margin-left: 20px;
+    height: 30px; 
+    width: 330px;
+}
+.inp3 {
+    margin-left: 82px;
+    height: 30px;
+    width: 692px;
+
+ }
+ .inp4 {
+    margin-left: 104px;
+    height: 30px;
+    width: 210px;
+ }
+ .inp5 {
+    margin-left: 20px;
+    height: 30px;
+    width: 210px;
+ }
+ .inp6 {
+    margin-left: 20px;
+    height: 30px;
+    width: 210px;
+ }
+ .opt1 {
+    margin-left: 30px;
+    height: 35px;
+    width: 703px;
+ }
+ .mm {
+    margin-left: 84px;
+    width: 698px;
+ }
