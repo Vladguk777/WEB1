@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(252, 253, 253);
+}
+.styled-div div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.styled-div div input {
+    margin-right: 65%;
+}
+button {
+    min-height: 30px;
+}
+#styled-button {
+    width: 25%;
+    margin-left: 5px;
+}
+#clear-button {
+    width: 10%;
+    margin-right: 65%;
+    margin-left: 5px;
+}
+
+span {
+    margin-left: 5px;
+}
+input {
+    width: 13%;
+}
+
+#search {
+    width: 535px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+table {
+    margin-top: 40px;
+}
+
+table th, .table td {
+    padding: 24px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.btn.btn-danger {
+    height: 35px;
+    width: 60px;
+}
+header {
+    border: 1px solid black;
+    display: flex;
+    background-image: url(https://life.liga.net/images/general/2020/12/08/20201208182201-1011.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 400px;
+}
+img { 
+width: 100px;
+height: 80px;
+}
+h1 {
+    color: white;
+    margin-left: 10px;
+}
