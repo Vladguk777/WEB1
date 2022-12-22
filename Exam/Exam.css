@@ -49,8 +49,10 @@ table th, .table td {
     font-size: 16px;
     font-weight: 900;
 }
-
-.btn.btn-danger {
+.success{
+    background: rgba(51, 223, 56, 0.61)
+}
+.btn.btn-danger,.btn.btn-success {
     height: 35px;
     width: 60px;
 }

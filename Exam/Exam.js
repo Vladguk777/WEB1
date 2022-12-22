@@ -2,12 +2,11 @@ const list = document.getElementsByClassName("table table-hover")[0].querySelect
 
 const addBtn = document.getElementById("styled-button");
 const clearBtn = document.getElementById("clear-button");
-
+const completeBtn = document.getElementById("success");
 const nameBox = document.getElementById("name");
 const priceBox = document.getElementById("termin");
 const rowBox = document.getElementById("prior");
 const placeBox = document.getElementById("description");
-
 const searchBox = document.getElementById("search");
 
 let removed = [];
@@ -31,26 +30,37 @@ function tableSearch() {
 
     }
 }
-function addItem(text, type, toLast, innrhtml = "") {
+function addItem(text, type, toLast, innrhtml = "",value) {
     let item = document.createElement(type);
     item.innerText = text;
     if (innrhtml != "")
-    {
+    { 
         item.innerHTML = innrhtml;
-        item.firstChild.addEventListener('click', function handleClick(event) {
-            removed.splice(removed.indexOf(item.parentElement));
-            list.removeChild(item.parentElement);
-          });
-        item.firstChild.value = "X";
+        if(value=="x")
+        {
+            item.firstChild.addEventListener('click', function handleClick(event) {
+              
+                removed.splice(removed.indexOf(item.parentElement));
+                list.removeChild(item.parentElement);
+              });
+        } else {
+            item.firstChild.addEventListener('click', function handleClick(event) {
+                console.log(item.parentElement)
+                $(item.parentElement).toggleClass('success')
+              });
+        }
+      
+        item.firstChild.value = value;
     }
     if (toLast) {
         list.lastChild.appendChild(item);
     } else {
+        item.className = "item";
         list.appendChild(item);
     }
 }
 addBtn.onclick = () => {
-    if (nameBox.value != "" &&
+    if ( nameBox.value != "" &&
         priceBox.value != "" &&
         rowBox.value != "" &&
         placeBox.value != "") {
@@ -59,13 +69,14 @@ addBtn.onclick = () => {
         addItem(priceBox.value, "td", true);
         addItem(rowBox.value, "td", true);
         addItem(placeBox.value, "td", true);
-        addItem("", "td", true, "<input type=\"button\" class=\"btn btn-danger\"></input>");
-
+        addItem("", "td", true, "<input type=\"button\" class=\"btn btn-success \" id = \"success\"></input>","☑");
+        addItem("", "td", true, "<input type=\"button\" class=\"btn btn-danger\"></input>","x");
+        
         buffer = list;
         onin();
     }
 }
 
-clearBtn.onclick = () => {
+clearBtn.onclick = () => {console.log("asdas");
     list.innerHTML = "";
 }
